@@ -7,3 +7,7 @@ hello:
     controller: App\Controller\HelloController::helloName
     defaults:
         name: "Chuck Norris"
+
+helloTemplate:
+    path: /html/hello
+    controller: App\Controller\HelloController::helloTemplate
