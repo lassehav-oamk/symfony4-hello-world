@@ -9,7 +9,7 @@
     This random number parameter is passed to the template by controller: <?php echo $randomNumber?>
 </div>
 <div>
-    
+
 </div>
 
 
