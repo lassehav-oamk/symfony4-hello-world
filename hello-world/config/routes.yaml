@@ -2,4 +2,8 @@ index:
     path: /
     controller: App\Controller\HelloController::helloWorld
 
-
+hello:
+    path: /hello/{name}
+    controller: App\Controller\HelloController::helloName
+    defaults:
+        name: "Chuck Norris"

@@ -18,5 +18,8 @@ class HelloController
         return new Response("Hello world!");
     }
 
-
+    public function helloName($name)
+    {
+        return new Response("Hello " . $name);
+    }
 }
